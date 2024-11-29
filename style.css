@@ -1,0 +1,190 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; 
+}
+
+.allwrap {
+    min-height: 100vh; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.parent {
+    background-color: rgb(255, 236, 153);
+    width: 100%;
+    min-height: 100vh; 
+}
+
+.navbar {
+    background-color: rgb(235, 203, 122);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 100%;
+    width: 100%;
+}
+
+.displaytext {
+    width: 750px;
+    color: white;
+}
+
+.wraptext {
+    width: 700px;
+    align-items: center;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+
+.wrapcontent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    margin-left: 80px;
+    margin-right: 20px;
+}
+
+.button {
+    background-color: rgb(240, 142, 61);
+    margin-top: 50px;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 40px; 
+}
+
+.button:hover {
+    background-color: rgb(89, 255, 0);
+    transition: background-color 2s;
+}
+
+.contenttext {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    color: rgb(223, 133, 29);
+    text-shadow: 1px 1px black;
+    background-color: rgb(235, 203, 122);
+    animation: rubahwarna 10s infinite;
+}
+
+@keyframes rubahwarna {
+    from {
+        background-color: rgb(235, 203, 122);
+    }
+    to {
+        background-color: rgb(247, 179, 78);
+    }
+    10% {
+        background-color: rgb(235, 203, 122);
+    }
+    50% {
+        background-color: rgb(241, 167, 48);
+    }
+}
+
+.content2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wraptext2 {
+    display: flex;
+    margin-right: 30px;
+    padding: 30px;
+    color: rgb(244, 155, 53);
+    text-shadow: 1px 1px black;
+}
+
+.content3 {
+    background-color: rgb(255, 236, 153);
+    width: 100%;
+    margin: 0; 
+    padding: 0;
+    height: auto; 
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 400px) {
+    .allwrap {
+        min-height: 900px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .parent {
+        background-color: rgb(255, 236, 153);
+        width: 100%;
+        min-height: 900px;
+    }
+    .navbar {
+        background-color: rgb(235, 203, 122);
+        width: 100%;
+        height: 90px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .logo {
+        height: 80px;
+        width: 80px;
+    }
+    .displaytext {
+        width: 750px;
+        color: white;
+        font-size: 12px;
+        margin-top: 10px;
+        margin-left: -50px;
+    }
+    .wraptext {
+        width: 400px;
+        align-items: center;
+        padding-top: 40px;
+        margin-bottom: 20px;
+        font-size: 10px;
+    }
+    .wrapcontent {
+        display: flex;
+        justify-content: space-between;
+        margin-top: -20px;
+    }
+    .image {
+        width: 150px;
+        height: 150px;
+        border-radius: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .button {
+        height: 20px;
+        width: 90px;
+        margin-top: 20px;
+        line-height: 20px;
+    }
+    .content3 {
+        margin: 0;
+        padding: 0;
+        height: auto;
+    }
+}
