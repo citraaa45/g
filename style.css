@@ -5,7 +5,6 @@ body, html {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    overflow-x: hidden;
 }
 
 .allwrap {
@@ -13,13 +12,12 @@ body, html {
     width: 100%;
     display: flex;
     justify-content: center;
-    flex-direction: column;
 }
 
 .parent {
     background-color: rgb(255, 236, 153);
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .navbar {
@@ -198,10 +196,8 @@ body, html {
     }
     .content3 {
         height: auto;
-        width: 100%;
         font-size: 15px;
         margin: 0;
         padding: 0;
-
     }
 }
